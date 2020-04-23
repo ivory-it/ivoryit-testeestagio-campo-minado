@@ -33,6 +33,7 @@ Neste repositório existe uma console application construída que instância a c
 Está classe é responsável por iniciar um novo jogo do campo minado. Nela temos disponíveis os seguintes atributos e métodos:
 
  - `campoMinado.Tabuleiro`: Retorna o tabuleiro atual no formato de `string`. Veja o que acontece quando imprimimos seu valor na tela (Linha 13 da imagem anterior):
+ 
 ![Aplicação inicial](https://github.com/ivory-it/ivoryit-testeestagio-campo-minado/blob/master/imagens/6.png) 
     - `Valores númericos`: Números de minas terrestres que a posição possui em volta;
     - `Traço (-)`: Posições que ainda não foram abertas, a qual o seu algoritmo deve analisar o atributo Tabuleiro e tomar a decisão de abrir ou não.
