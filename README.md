@@ -9,31 +9,31 @@ O jogo consiste em uma matriz quadrada, que ao primeiro clique revela algumas po
 
 Aqui temos o início de um jogo, repare que a posição marcada de amarelo possui o número 1, portanto em volta deste número possui uma mina terrestre. Como possuímos apenas uma posição não aberta destacada em vermelho, indica que ela possui uma mina terrestre e que não devemos abrir está posição.
 
-![Exemplo campo minado jogada 1](https://github.com/ivory-it/ivoryit-testeestagio-campo-minado/blob/master/1.png)
+![Exemplo campo minado jogada 1](https://github.com/ivory-it/ivoryit-testeestagio-campo-minado/blob/master/imagens/1.png)
 
 Agora podemos analisar uma próxima posição (destacada de amarelo). Repare que em volta do número existem duas posições que não abrimos, mas uma possui uma bomba (descoberta na etapa anterior), portanto ficou liberado a casa destacada em verde, pois a posição atual indica que em volta existe apenas uma mina terrestre. Assim ela está livre para abrir.
 
-![Exemplo campo minado jogada 2](https://github.com/ivory-it/ivoryit-testeestagio-campo-minado/blob/master/2.png)
+![Exemplo campo minado jogada 2](https://github.com/ivory-it/ivoryit-testeestagio-campo-minado/blob/master/imagens/2.png)
 
 Outro exemplo é a casa destaca em amarelo, nesta situação onde todas as posições não abertas são iguais ao número da posição destacada, indica que todas as posições possuem uma mina terrestre.
 
-![Exemplo campo minado jogada 3](https://github.com/ivory-it/ivoryit-testeestagio-campo-minado/blob/master/3.png)
+![Exemplo campo minado jogada 3](https://github.com/ivory-it/ivoryit-testeestagio-campo-minado/blob/master/imagens/3.png)
 
 Se no passo anterior descobrimos três minas terrestres, o item destacado em amarelo possui duas minas terrestres em volta. Portanto a posição destaca em verde está livre para abrirmos.
 
-![Exemplo campo minado jogada 3](https://github.com/ivory-it/ivoryit-testeestagio-campo-minado/blob/master/4.png)
+![Exemplo campo minado jogada 3](https://github.com/ivory-it/ivoryit-testeestagio-campo-minado/blob/master/imagens/4.png)
 
 Antes de enfrentar o desafio, que tal jogar algumas partidas para você entender a dinâmica: https://minesweeper.online/
 
 # Desafio
 Neste repositório existe uma console application construída que instância a classe CampoMinado.
 
-![Aplicação inicial](https://github.com/ivory-it/ivoryit-testeestagio-campo-minado/blob/master/5.png)
+![Aplicação inicial](https://github.com/ivory-it/ivoryit-testeestagio-campo-minado/blob/master/imagens/5.png)
 
 Está classe é responsável por iniciar um novo jogo do campo minado. Nela temos disponíveis os seguintes atributos e métodos:
 
  - `campoMinado.Tabuleiro`: Retorna o tabuleiro atual no formato de `string`. Veja o que acontece quando imprimimos seu valor na tela (Linha 13 da imagem anterior):
-![Aplicação inicial](https://github.com/ivory-it/ivoryit-testeestagio-campo-minado/blob/master/6.png) 
+![Aplicação inicial](https://github.com/ivory-it/ivoryit-testeestagio-campo-minado/blob/master/imagens/6.png) 
     - `Valores númericos`: Números de minas terrestres que a posição possui em volta;
     - `Traço (-)`: Posições que ainda não foram abertas, a qual o seu algoritmo deve analisar o atributo Tabuleiro e tomar a decisão de abrir ou não.
 - `campoMinado.JogoStatus`: Atributo que retorna (inteiro) o status do jogo atual. A cada tentativa de abertura de uma posição o seu valor é alterado.
@@ -47,7 +47,7 @@ Como todos sabem, uma string é um vetor de caracteres, portanto o objetivo do a
 ## Roteiro
 1. Ter uma conta no GitHub;
 2. Criar um novo projeto no GitHub e realizar o clone do mesmo em sua máquina;
-3. Baixar o código fonte inicial neste link;
+3. Baixar o código fonte inicial [neste link](https://github.com/ivory-it/ivoryit-testeestagio-campo-minado/archive/master.zip);
 4. Colocar o projeto no diretório do projeto clonado da sua conta do GitHub;
 5. Ter instalado em sua máquina o [.net core SDK 3.1](https://dotnet.microsoft.com/download/dotnet-core/thank-you/sdk-3.1.201-windows-x64-installer);
 6. Ter instaldo em sua máquina [Visual Studio 2019 Comunnity ou VSCODE (Todos são gratuitos)](https://visualstudio.microsoft.com/pt-br/)
