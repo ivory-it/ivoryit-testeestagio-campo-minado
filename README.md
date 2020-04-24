@@ -53,7 +53,7 @@ Como todos sabem, uma string é um vetor de caracteres, portanto o objetivo do a
 5. Ter instalado em sua máquina o [.net core SDK 3.1](https://dotnet.microsoft.com/download/dotnet-core/thank-you/sdk-3.1.201-windows-x64-installer);
 6. Ter instaldo em sua máquina [Visual Studio 2019 Comunnity ou VSCODE (Todos são gratuitos)](https://visualstudio.microsoft.com/pt-br/)
 7. Após instalação das IDEs, abra a solução para iniciar a códificação (Ivory.TesteEstagio.CampoMinado.sln);
-8. Após finalizar ter o algoritimo completo, basta subir as alterações (commit/push) para sua conta. E responder o e-mail do teste com o link da sua conta no GitHub, para que possamos analisar sua codificação.
+8. Após finalizar e ter o algoritimo completo, basta subir as alterações (commit/push) para sua conta e responder o e-mail do teste com o link da sua conta no GitHub, para que possamos analisar sua codificação.
 
 ## Dicas / Regras
 1. Ao codificar matenha seu código limpo e coerente. Manter padronização ajuda a equipe entender o que foi codificado, além de ajudar nas manutenções futuras. Algumas dicas: [Padronização Códificação](https://github.com/ivory-it/ivoryit-testeestagio-detetive/wiki/Padroniza%C3%A7%C3%A3o-codifica%C3%A7%C3%A3o);
