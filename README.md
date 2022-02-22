@@ -61,4 +61,5 @@ Como todos sabem, uma string é um vetor de caracteres, portanto o objetivo do a
 3. É permitido ter apenas uma instância da classe `CampoMinado.cs`;
 4. O algoritimo deve realizar uma analise conforme a seção Objetivo do jogo e não um algoritmo de força bruta, abrindo todos as casas para se descobrir as minas terrestres para depois reabrir somente as que não tem minas terrestres;
 5. O algoritimo deve analisar a string que representa o tabuleiro, não é valido fixar a abertura das posições que não possuem minas terrestres pela analise do algoritmo `CampoMinado.cs`;
-6. Qualquer duvida entre em contato: thiago.resende@ivoryit.com.br
+6. Não é para criar uma aplicação onde o usuário escolha qual posição abrir, é para ser um algoritimo autonomo que realize as jogadas;
+7. Qualquer duvida entre em contato: thiago.resende@ivoryit.com.br
